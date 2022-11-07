@@ -1,0 +1,18 @@
+div {
+    margin: 200px auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255 0 0 / 39%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    transform: scaleX(3);
+    transform: scaleY(5);
+    -webkit-transform: scaleY(5);
+    -moz-transform: scaleY(5);
+    -ms-transform: scaleY(5);
+    -o-transform: scaleY(5);
+}     

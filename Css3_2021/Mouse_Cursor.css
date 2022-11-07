@@ -1,0 +1,10 @@
+button {
+    background: transparent;
+    border: none;
+    color: red;
+    font-weight: bold;
+    cursor: pointer; /* cursor dakchi dyal click ay9onat bhal recherche yad*/
+  }
+  p{
+    cursor:crosshair;
+  }

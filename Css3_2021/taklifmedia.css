@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    
+}
+.parent > div {
+    width: 100%;  
+    margin-bottom: 10px;
+    background-color: gainsboro;
+}
+@media (min-width: 768px) {
+    .parent > .o {
+      width: calc(100%);
+    }
+    }
+  @media (min-width: 768px) {
+    .parent > .t   {
+      width: calc(50% - 10px);
+    }
+}
+@media (min-width: 768px) {
+  .parent > .th   {
+    width: calc(50% - 10px);
+  }
+}
+@media (min-width: 992px) {
+  .parent > .t {
+    width: calc(25% - 10px);
+  }
+}
+@media (min-width: 992px) {
+  .parent > .th {
+    width: calc(25% - 10px);
+  }
+}
+@media (min-width: 992px) {
+  .parent > .f {
+    width: calc(25% - 10px);
+  }
+}

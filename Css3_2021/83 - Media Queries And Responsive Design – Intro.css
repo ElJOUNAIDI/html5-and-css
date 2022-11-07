@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+.parent{
+    display: flex;
+    width: 1200px;
+    height: 20px;
+    justify-content: space-between;
+
+}
+.parent > div{
+    background-color: brown;
+    width: 290px;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 20px;
+}
+@media (max-width:1300px) and (min-width:600px){
+    .parent > div{
+        background-color: blue;
+    }
+    /**print
+   .parent > div:first-child{
+        display: none;
+        background-color: aqua;
+    }*/
+
+} 

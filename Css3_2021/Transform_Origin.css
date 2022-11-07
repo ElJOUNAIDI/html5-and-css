@@ -1,0 +1,68 @@
+/*
+  transform-origin
+  Syntax
+  Default Values => 50% 50% 0
+  2D Transform => transform-origin(X, Y)
+  3D Transform => transform-origin(X, Y, Z)
+  X-Axis
+  - CSS Unit [px, em, rem]
+  - %
+  - Keyword
+  -- Left = 0%
+  -- Center = 50%
+  -- Right = 100%
+  Y-Axis
+  - CSS Unit [px, em, rem]
+  - %
+  - Keyword
+  -- Top = 0%
+  -- Center = 50%
+  -- Bottom = 100%
+*/
+.parent{
+    margin: 20px auto;
+    width: 300px;
+    height: 200px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    
+}
+.p1{
+    width: 90%;
+    height: 90%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transform-origin:100% 100%; /* mn fog left o center o right , mn taht left o center o right*/
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+}
+span{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: blue;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    right: 0;
+    bottom:0;
+    transform: translate(50% 50%);
+    -webkit-transform: translate(50% 50%);
+    -moz-transform: translate(50% 50%);
+    -ms-transform: translate(50% 50%);
+    -o-transform: translate(50% 50%);
+}

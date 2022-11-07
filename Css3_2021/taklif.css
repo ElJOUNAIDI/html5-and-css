@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    overflow: hidden;
+    counter-increment: nombre;
+}
+.one{
+    text-align: center;
+    font-size: 29px;
+    width: 100px;
+    height: 70px;
+    float: left;
+    background-color: gainsboro;
+    margin-top: 10px;
+    margin-right:40px;
+    visibility: hidden;
+}
+.us{
+    font-size: 30px;
+    width: 600px;
+    height: 100px;
+    float: left;
+    background-color: gainsboro;
+    margin-bottom: 40px;
+    
+    position: relative;
+}
+.us::after{
+    content: "";
+    height: 100%;
+    width: 5px;
+    position: absolute;
+    right: 0;
+    background-color: rgb(255, 0, 170);
+    top: 0;
+
+}
+.us::before{
+    content: counter(nombre);
+    position: absolute;
+    content: nombre;
+    width: 100px;
+    height:100%;
+    left: -100px;
+    background-color: red;
+    font-size: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

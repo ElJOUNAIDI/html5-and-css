@@ -1,0 +1,40 @@
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows: repeat(2);
+    gap: 10px 10px;
+  }
+  .grid div{
+    display: grid;
+    background-color: blue;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+    color:white;
+  }
+  .one{
+    grid-column: span 2;
+    
+    
+  }
+  .two{
+    
+  }
+  .three{
+    display: grid;
+    width: 100px;
+
+    
+  }
+  .five{
+    grid-row: span 3;
+  }
+  .eight{
+    grid-column: span 2;
+    
+  }

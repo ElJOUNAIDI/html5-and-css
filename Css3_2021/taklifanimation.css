@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+
+}
+div{
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation-name: loa;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+
+}
+div:hover{
+    animation-play-state: paused;
+}
+div .a{
+    width: 200px;
+    height: 200px;
+    border: 10px red solid;
+    border-left-color: transparent;
+    
+}
+div .b{
+    width: 160px;
+    height: 160px;
+    border: 10px green solid;
+    border-right-color: transparent; 
+    margin: 10px;
+}
+div .c{
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+    border: 10px blue solid;
+    border-bottom-color: transparent;
+    }
+@keyframes loa{
+    0%{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg) ;
+        -webkit-transform:rotate(360deg) ;
+        -moz-transform:rotate(360deg) ;
+        -ms-transform:rotate(360deg) ;
+        -o-transform:rotate(360deg) ;
+}
+
+}

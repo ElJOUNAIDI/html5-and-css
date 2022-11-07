@@ -1,0 +1,71 @@
+.co{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    perspective: -300px;
+}
+.b{
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    width: 200px;
+    height: 200px;
+    transform-origin: right center;
+    
+}
+.b:hover{
+    transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg); 
+
+    
+     
+}
+.f{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    width: 200px;
+    height: 200px;
+    animation-name: color1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: grab;
+}
+.fro{
+    background-color: blueviolet;
+}
+.back{
+    background-color: blue;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    
+}
+@keyframes color1{
+    0%{
+        background-color: blue;
+    }
+    30%{
+        background-color: brown;
+    }
+    70%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: chartreuse;
+    }
+}

@@ -1,0 +1,44 @@
+div
+{
+    margin: 20px auto;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color: gray;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 20px red solid;
+    border-left-color:transparent ;
+    animation-name: spin;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+    left :50%;
+    top:50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    
+    
+    
+
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        
+}
+}

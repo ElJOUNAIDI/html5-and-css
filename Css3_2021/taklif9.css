@@ -1,0 +1,35 @@
+.layout {
+    display:grid;
+    height: 100vh;
+    grid-template-columns: repeat(5 ,1fr);
+    grid-template-rows: 50px auto 50px;
+    grid-template-areas: 
+    "header header header header  header "
+    "section section section aside aside"
+    "footer footer footer footer footer"
+    ;
+  }
+  header{
+    grid-area: header;
+    background-color:aqua;
+    color: white;
+  }
+  section{
+    grid-area:section ;
+    background-color: orangered;
+    color: white;
+
+  }
+  aside{
+    grid-area:aside ;
+    background-color: darkslategray;
+    color: white;
+
+  }
+  footer{
+    grid-area: footer;
+    background-color: aquamarine;
+    color: white;
+
+  }
+ 

@@ -1,0 +1,35 @@
+.parent{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+    
+}
+.parent div{
+    display: flex;
+    width: calc(80% /4);
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+.one{
+    background-color: orange;
+    order: 2;
+    
+}
+.two{
+    background-color: greenyellow;
+    order: 3;
+    align-self: flex-end;
+}
+.three{
+    background-color: maroon;
+    order: 4;
+    
+}
+.four{
+    background-color: blueviolet;
+    align-self: flex-end;
+}

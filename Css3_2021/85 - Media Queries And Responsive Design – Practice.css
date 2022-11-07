@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.parent > div{
+    background-color: blue;
+    text-align: center;
+    font-size: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+/* Mobile */
+
+@media (max-width: 767px) {
+}
+
+/* Small Screens */
+
+@media (min-width: 768px) {
+  .parent > div {
+    width: calc(50% - 10px);
+  }
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+  .parent > div {
+    width: calc(25% - 10px);
+  }
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+    .parent > div {
+        background-color: aqua;
+      
+    }
+}
+
+/* Custom */
+
+@media (max-width: 1199px) {
+}
