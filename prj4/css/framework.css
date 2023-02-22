@@ -1,0 +1,130 @@
+/*start display*/
+.d-flex{
+    display: flex;
+}
+.f-d{
+    flex-direction: column;
+}
+/*end display*/
+/*start padding + marging*/
+.p-20{
+    padding: 20px;
+}
+.p-10{
+    padding: 10px;
+}
+.m-20{
+    margin: 20px;
+}
+/*end padding + marging*/
+.rad-6{
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.b-r{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* start align-items*/
+.a-items{
+    align-items: center;
+}
+/* end align-items*/
+/*start position*/
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
+/*end position*/
+/* start font-weight*/
+.f-w{
+    font-weight: bold;
+}
+.f-z{
+    font-size: 16px;
+}
+/* start font-weight*/
+/*start background-color */
+.b-c{
+    background-color: black;
+}
+.b-cw{
+    background-color: white;
+}
+.b-cgc{
+    background-color: #22c55e;
+}
+.b-cr{
+    background-color: #f44336;
+}
+.b-cb{
+    background-color: #0075ff;
+}
+.b-co{
+    background-color: #f59e0b;
+}
+/*end background-color */
+/*start fit-content */
+.w{
+    width: fit-content;
+}
+/*end fit-content */
+/*start transform*/
+.tr{
+    transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -o-transform: translateX(50%);
+}
+/*end transform*/
+/*start text-align*/
+.t-a{
+    text-align: center;
+}
+/*end text-align*/
+/*start space-betwen*/
+.sp-b{
+    display: flex;
+    justify-content: space-between;
+}
+/*end space-betwen*/
+/*start d-grid*/
+.d-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 20px;
+}
+.d-grid-1{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(20px,1fr));
+    gap: 20px;
+}
+/*end d-grid*/
+/* start color*/
+.color-b{
+    color: blue;
+}
+.color-o{
+    color: orange;
+}
+.color-g{
+    color: green;
+}
+.color-gc{
+    color:#22c55e;;
+}
+.color-r{
+    color: red;
+}
+/*end color*/
+
+
